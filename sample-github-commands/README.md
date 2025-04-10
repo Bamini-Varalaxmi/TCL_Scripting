@@ -11,7 +11,7 @@
 * git status
 * <!-- syntax of git add: git add modified-file1 modified-file2 -> add specific files to the staging area -->
 * git add file_name
-<!-- * git commit -->
+<!-- git commit : opens the vim editor which is not user friendly so follow the below command, to come out of the vim press :q -->
 * git commit -m "write a meesage about the modification which are committed"
 * git push -u 
 <!-- * to view everyones check points -->
