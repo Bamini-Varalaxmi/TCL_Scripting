@@ -14,9 +14,16 @@
 * git init
 * open the folder
 * open the file
+<!-- git branch lists out all the branches -->
+<!--> \* branch_name is the current branch that you are working on --> 
 * git branch
+
+<!-- creates the branch-->
+* git branch <branch_name>
+
+<!--switching to specific branch -->
 * git switch branch_name 
-<!-- * git checkout -b branch_name -->
+<!--  git checkout -b branch_name , checkout was the keyword earlier to switching branches -->
 * modify the file
 * git status
 * <!-- syntax of git add: git add modified-file1 modified-file2 -> add specific files to the staging area -->
