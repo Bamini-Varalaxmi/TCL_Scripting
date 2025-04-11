@@ -26,8 +26,16 @@
 <!-- "git log" is used to see all list of commits with commit messagesin the folder-->
 * git log
 * git status
+
 <!-- if you want to add all the modified files to be updated, use "git add ." -->
 * git add .
+
+<!-- Incase of realtime projects we will have to write big commit message  -->
+<!-- opening an editor from VS code -->
+* git config --global core.editor "code --wait"
+
+<!-- to open vim for wrting a commit message -->
+* git config --global core.editor "vim"
 
 * git push -u 
 
