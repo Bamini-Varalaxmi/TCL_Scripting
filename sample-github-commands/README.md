@@ -37,6 +37,7 @@
 <!-- to open vim for wrting a commit message -->
 * git config --global core.editor "vim"
 
+
 * git push -u 
 
 
