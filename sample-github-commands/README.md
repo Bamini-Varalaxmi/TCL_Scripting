@@ -37,6 +37,21 @@
 <!-- to open vim for wrting a commit message -->
 * git config --global core.editor "vim"
 
+<!-- viewing git log in short of every commit message in online -->
+* git log --oneline 
+
+<!-- fixinig mistakes in the last commit like forgot to add file or typo in commit message -->
+<!-- adding forgotten file name-->
+* git add forgotten_file
+<!-- redo the last commit-->
+* git commit --amend 
+
+
+<!-- to ignore few files/folders when you're commiting to publishing publicly  -->
+* git .gitignore
+<!-- window will pops up in vscode mention those file_names or folders/ in that , save it then do "git commit ."-->
+* git add .
+* git commit -m "type your message"
 
 * git push -u 
 
