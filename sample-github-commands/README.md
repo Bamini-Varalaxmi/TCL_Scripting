@@ -21,15 +21,26 @@
 <!-- creates the branch-->
 * git branch <branch_name>
 
+
 <!--switching to specific branch -->
 * git switch branch_name 
-<!--  git checkout -b branch_name , checkout was the keyword earlier to switching branches -->
+
+<!--  git checkout -b branch_name , checkout was the keyword earlier to switching branches and still exists, along with switching branch it does restore all working trees  -->
+* git checkout <branch-name>
+
+<!-- branch creation and switching takes place-->
+* git switch -c <branch-name>
+
+<!-- do not switch to other branches unles you commit the current modifications>
+
 * modify the file
 * git status
 * <!-- syntax of git add: git add modified-file1 modified-file2 -> add specific files to the staging area -->
 * git add file_name
+
 <!-- git commit : opens the vim editor which is not user friendly so follow the below command, to come out of the vim press :q -->
 * git commit -m "write a meesage about the modification which are committed"
+
 <!-- "git log" is used to see all list of commits with commit messagesin the folder-->
 * git log
 * git status
