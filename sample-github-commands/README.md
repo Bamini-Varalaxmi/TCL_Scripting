@@ -8,7 +8,7 @@
 * git config user.email <useremail@gmail.com>
 <!-- checking user configured email -->
 * git config user.email
-<!-- * to view everyones check points -->
+<!-- * to view everyones check points or to view git log in short of every commit message in online -->
 * git log --oneline
 <!-- initiatng git repository/project, before doing "git init" you need to check for "git status", if the git is not present then only go for "git init" to avoid error functions -->
 * git init
