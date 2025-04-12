@@ -5,7 +5,7 @@
 <!-- checking the user name-->
 * git config user.name
 <!-- confguring with user email-->
-* git config user.email varalaxmi0901@gmail.com
+* git config user.email <useremail@gmail.com>
 <!-- checking user configured email -->
 * git config user.email
 <!-- * to view everyones check points -->
