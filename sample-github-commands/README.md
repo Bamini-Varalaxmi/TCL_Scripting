@@ -50,7 +50,7 @@
 <!-- "git log" is used to see all list of commits with commit messagesin the folder-->
 * git log
 * git status
-
+  
 <!-- if you want to add all the modified files to be updated, use "git add ." -->
 * git add .
 
