@@ -33,6 +33,12 @@
 
 <!-- do not switch to other branches unles you commit the current modifications>
 
+<!-- delete branch by switchng to master/other branches -->
+* git branch -d <branch-name>
+
+<!-- rename branch can be done by switching to that specific branch-->
+* git branch -m <branch-name>
+
 * modify the file
 * git status
 * <!-- syntax of git add: git add modified-file1 modified-file2 -> add specific files to the staging area -->
